@@ -12,7 +12,7 @@ Installers:
       - RelativeFilePath: jalapeno.exe
         PortableCommandAlias: jalapeno
     InstallerUrl: https://github.com/futurice/jalapeno/releases/download/v0.1.11/jalapeno-windows-arm64.zip
-    InstallerSha256: 53333886aa9e007ea20a692c1eb22f2c0cd5da04d0c15fe4e09c3e7514377dac
+    InstallerSha256: 46ee56099f460a766f963849f75fefe0201d10181f1d93512da9b8f1510bd9db
     UpgradeBehavior: uninstallPrevious
   - Architecture: x64
     NestedInstallerType: portable
@@ -20,7 +20,7 @@ Installers:
       - RelativeFilePath: jalapeno.exe
         PortableCommandAlias: jalapeno
     InstallerUrl: https://github.com/futurice/jalapeno/releases/download/v0.1.11/jalapeno-windows-amd64.zip
-    InstallerSha256: 28a6f61890a9ced68f9c24a2fa99a33e16f53fbfeda57c67a28f8a4697c8f634
+    InstallerSha256: 19c7e911bf9019b8a79e939b56aa29b2cd65059f3dbed7070015756bdab0f3ca
     UpgradeBehavior: uninstallPrevious
 ManifestType: installer
 ManifestVersion: 1.5.0

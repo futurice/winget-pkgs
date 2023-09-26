@@ -22,6 +22,7 @@ ReleaseNotes: |
   ## Changelog
   * 4d40f1d Create single recipe to showcase variable types
   * 74b41d3 Disable Winget publishing until goreleaser gets updated
+  * 0e8be38 Fix Homebrew publishing after goreleaser update
   * 4c350dc Re-enable Winget releases
   * 1bfe0e1 Use ID as string in the templates for compatibility
 ReleaseNotesUrl: https://github.com/futurice/jalapeno/releases/tag/v0.1.11
