@@ -1,0 +1,42 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: Mozilla.Firefox.DeveloperEdition.ca-valencia
+PackageVersion: "140.0"
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Silent: /S /PreventRebootRequired=true
+  SilentWithProgress: /S /PreventRebootRequired=true
+  InstallLocation: /InstallDirectoryPath="<INSTALLPATH>"
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+FileExtensions:
+- avif
+- htm
+- html
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+ReleaseDate: 2025-06-11
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/140.0b8/win32/ca-valencia/Firefox%20Setup%20140.0b8.exe
+  InstallerSha256: BA2A5827376A22D56C9D26C24569CE7860FC9034103F456A8FC2907A901C8493
+  ProductCode: Firefox Developer Edition 140.0 (x86 ca-valencia)
+- Architecture: x64
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/140.0b8/win64/ca-valencia/Firefox%20Setup%20140.0b8.exe
+  InstallerSha256: 471FDAD12E15C6867F9971B65C7370C0FA413EF23FC5F11BBC83FF7ABDAC842B
+  ProductCode: Firefox Developer Edition 140.0 (x64 ca-valencia)
+- Architecture: arm64
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/140.0b8/win64-aarch64/ca-valencia/Firefox%20Setup%20140.0b8.exe
+  InstallerSha256: E732910B5EF46C60FA65F18FA7BD042B74A972F1499179CD0613306EAA312233
+  ProductCode: Firefox Developer Edition 140.0 (arm64 ca-valencia)
+ManifestType: installer
+ManifestVersion: 1.10.0
